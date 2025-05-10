@@ -1,35 +1,26 @@
-# Hateful Meme Detection: The Challenge of Multimodal Learning
+# Hateful Meme Detection
 
-This repository contains a comprehensive blog-style Jupyter notebook exploring the challenge of hateful meme detection through the lens of multimodal learning. Created by Chintha Yethi Raj, this project analyzes advanced techniques for detecting hateful content in multimodal media, unpacking key insights and connecting them to the broader field of multimodal AI.
+A multimodal machine learning system for detecting hateful content in memes by analyzing both image and text components.
 
 ## Overview
 
-Hateful memes represent a unique challenge for content moderation systems because they combine text and images in nuanced ways that require understanding both modalities and their interaction. This blog explores:
+This project implements an advanced system for the detection of hateful memes, which combine images and text to convey hate speech or discrimination. The solution leverages state-of-the-art machine learning techniques including Convolutional Neural Networks (CNNs) for visual processing and transformer models for text analysis, creating a robust multimodal classification system.
 
-- The motivation behind studying hateful meme detection
-- Historical perspective on multimodal learning evolution
-- Technical implementation details with code examples
-- Key learnings from advanced multimodal analysis
-- Reflections on surprising insights and areas for improvement
+## Features
 
-## Repository Structure
+- **Multimodal Analysis**: Processes both image and text components of memes
+- **Advanced Classification**: Detects hateful vs. non-hateful content using deep learning
+- **Interactive Interface**: User-friendly web application for uploading and analyzing memes
+- **Performance Metrics**: Evaluation using accuracy, precision, recall, and F1-score
+- **Visualization Tools**: Explanatory visualizations for classification decisions
+- **Feedback System**: Allows users to review and provide feedback on results
 
-- `hateful_meme_detection_blog.ipynb`: The main blog post in Jupyter notebook format
-
-## Topics Covered
-
-- Problem formulation in hateful meme detection
-- Data understanding and dataset characteristics
-- Multimodal architecture design (two-branch approach)
-- Training strategies including transfer learning
-- Evaluation methods and error analysis
-- Future directions for improvement
-
-## How to View
-
-You can view the notebook directly on GitHub, or clone the repository and run it locally:
+## Installation
 
 ```bash
-git clone https://github.com/your-username/hateful-meme-detection-blog.git
-cd hateful-meme-detection-blog
-jupyter notebook hateful_meme_detection_blog.ipynb
+# Clone the repository
+git clone https://github.com/yourusername/hateful-meme-detection.git
+cd hateful-meme-detection
+
+# Install dependencies
+pip install -r requirements.txt
